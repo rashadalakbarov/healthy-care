@@ -1,9 +1,17 @@
-import logo from "../assets/logo.svg";
-import profile_pic from "../assets/default/profile_pic.png";
-import dropdown_icon from "../assets/icons/dropdown_icon.svg";
+import logo from "../assets/images/logo.svg";
+import profile_pic from "../assets/images/default/profile_pic.png";
+import dropdown_icon from "../assets/images/icons/dropdown_icon.svg";
+import header_img from "../assets/images/banner/header_img.png";
+import arrow_icon from "../assets/images/icons/arrow_icon.svg";
+import group_profiles from "../assets/images/other/group_profiles.png";
+import appointment_img from "../assets/images/banner/appointment_img.png";
 
 export const assets = {
   logo,
   profile_pic,
   dropdown_icon,
+  header_img,
+  arrow_icon,
+  group_profiles,
+  appointment_img,
 };
