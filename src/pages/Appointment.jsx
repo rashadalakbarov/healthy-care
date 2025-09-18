@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { AppContext } from "../context/AppContext";
 import { assets } from "../datas/info";
+import RelatedDoctors from "../components/RelatedDoctors";
 
 const Appointment = () => {
   const { docId } = useParams();
@@ -164,7 +165,12 @@ const Appointment = () => {
                 </p>
               ))}
           </div>
+
+          <button className="bg-[#5f6fff] text-white text-sm font-light px-20 py-3 rounded-full my-6">
+            Book an appointment
+          </button>
         </div>
+        <RelatedDoctors docId={docId} speciality={docInfo.speciality} />
       </div>
     )
   );

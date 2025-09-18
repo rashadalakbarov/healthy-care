@@ -9,6 +9,8 @@ import info_icon from "../assets/images/icons/info_icon.svg";
 
 import header_img from "../assets/images/banner/header_img.png";
 import appointment_img from "../assets/images/banner/appointment_img.png";
+import about_image from "../assets/images/banner/about_image.png";
+import contact_image from "../assets/images/banner/contact_image.png";
 
 import group_profiles from "../assets/images/other/group_profiles.png";
 
@@ -22,4 +24,6 @@ export const assets = {
   appointment_img,
   verified_icon,
   info_icon,
+  about_image,
+  contact_image,
 };
