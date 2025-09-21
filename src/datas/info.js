@@ -6,6 +6,8 @@ import dropdown_icon from "../assets/images/icons/dropdown_icon.svg";
 import arrow_icon from "../assets/images/icons/arrow_icon.svg";
 import verified_icon from "../assets/images/icons/verified_icon.svg";
 import info_icon from "../assets/images/icons/info_icon.svg";
+import menu_icon from "../assets/images/icons/menu_icon.svg";
+import cross_icon from "../assets/images/icons/cross_icon.png";
 
 import header_img from "../assets/images/banner/header_img.png";
 import appointment_img from "../assets/images/banner/appointment_img.png";
@@ -26,4 +28,6 @@ export const assets = {
   info_icon,
   about_image,
   contact_image,
+  menu_icon,
+  cross_icon,
 };
